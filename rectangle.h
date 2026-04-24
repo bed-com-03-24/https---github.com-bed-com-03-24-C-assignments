@@ -2,13 +2,18 @@
 
 class Rectangle
 {
+        private:
             float length;
             float width ;
-            Rectangle();
-            ~Rectangle();
-
+           
     public :
-            void SetValue(float newLength , float newWidth) ;
-           float GetValue();
-        float Area(float newLength , float newWidth);
+         Rectangle();//{ length=0.0f; width=0.0f; }
+
+         ~Rectangle();
+
+         void SetValue(float newLength , float newWidth) ;
+
+         float GetValue();
+
+        float Area();
 };

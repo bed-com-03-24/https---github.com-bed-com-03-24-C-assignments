@@ -1,4 +1,4 @@
-#include "rectangle.h"
+#include "Rectangle.h"
 
 void Rectangle ::SetValue(float newLength , float newWidth)
 {
@@ -13,8 +13,12 @@ float Rectangle:: GetValue()
 
 }
 
-float Rectangle ::Area(float newLength , float newWidth)
+float Rectangle ::Area()
 {
-    float x = newLength * newWidth;
+    float x = length * width;
     return x ;
 }
+Rectangle:: Rectangle(){
+        length=0.0f;
+        width=0.0f;
+     }
