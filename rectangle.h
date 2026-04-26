@@ -9,11 +9,13 @@ class Rectangle
     public :
          Rectangle();//{ length=0.0f; width=0.0f; }
 
-         ~Rectangle();
+        Rectangle(float NewLength , float NewWidth); // additions on q2
 
-         void SetValue(float newLength , float newWidth) ;
+        ~Rectangle();
 
-         float GetValue();
+        void SetValue(float newLength , float newWidth) ;
+
+        float GetValue();
 
         float Area();
 };

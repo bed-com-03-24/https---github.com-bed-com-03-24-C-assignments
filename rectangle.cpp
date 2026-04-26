@@ -22,3 +22,14 @@ Rectangle:: Rectangle(){
         length=0.0f;
         width=0.0f;
      }
+
+Rectangle:: Rectangle(float NewLength , float NewWidth)// additions on q2
+{
+   length= NewLength;
+   width = NewWidth;
+
+}
+Rectangle::~Rectangle()
+{
+    
+}
