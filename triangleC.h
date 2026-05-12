@@ -11,7 +11,8 @@ namespace shapes
         public:
                 void SetValue(double Newbase , double Newheight);
 
-                double GetValue();
+                double GetValueH();
+                  double GetValueB();
 
                 triangle();
 
